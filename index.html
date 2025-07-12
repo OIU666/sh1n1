@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sh1n1</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      background:#0f0f0f;
+      color:#fff;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      height:100vh;
+      animation:fadeIn 2s ease;
+    }
+    h1 {
+      font-size:3em;
+      color:#00ffc8;
+      text-shadow: 0 0 10px #00ffc8;
+      margin-bottom:10px;
+    }
+    p {
+      color:#aaa;
+      margin-bottom:30px;
+      font-size:1.2em;
+      text-align:center;
+    }
+    .links a {
+      display:inline-block;
+      padding:12px 24px;
+      margin:5px;
+      border:2px solid #00ffc8;
+      border-radius:8px;
+      color:#00ffc8;
+      text-decoration:none;
+      transition:0.3s;
+    }
+    .links a:hover {
+      background:#00ffc8;
+      color:#000;
+      box-shadow: 0 0 20px #00ffc8;
+    }
+    @keyframes fadeIn {
+      from { opacity:0; transform:translateY(40px); }
+      to { opacity:1; transform:translateY(0); }
+    }
+    @media (max-width:600px) {
+      h1 { font-size:2em; }
+      p { font-size:1em; padding:0 20px; }
+      .links a { padding:10px 20px; font-size:0.9em; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Sh1n1</h1>
+  <p>Создаю. Тестирую. Развиваюсь.</p>
+  <div class="links">
+    <a href="https://t.me/sh1n1666" target="_blank">Telegram</a>
+    <a href="https://youtube.com/@sh1n1666" target="_blank">YouTube</a>
+    <a href="https://pin.it/4PrZGEyCs" target="_blank">Pinterest</a>
+  </div>
+</body>
+</html>
